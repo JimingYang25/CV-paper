@@ -1,0 +1,4 @@
+# Versions used for verification are recorded in VALIDATION.md.
+torch>=2.2
+matplotlib>=3.8
+numpy>=1.26
