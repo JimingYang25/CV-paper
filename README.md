@@ -4,6 +4,8 @@
 
 - [2026-10-17 — Multi-scale Deformable Attention](CV/lessons/attention-and-detection/2026-10-17-deformable-attention.md)
 
+- [2026-10-18 — RAFT Optical Flow](CV/lessons/video-and-motion/2026-10-18-raft-optical-flow.md)
+
 ## [VLM — Vision-Language Models](VLM/README.md)
 
 - [2026-10-13 — Exact Multimodal Speculative Decoding](VLM/Inference-and-Decoding/2026-10-13_Exact-Multimodal-Speculative-Decoding.md)
