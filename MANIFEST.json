@@ -1,0 +1,99 @@
+{
+  "repository": "JimingYang25/CV-paper",
+  "status": "offline_export_not_pushed",
+  "complete_lesson_count": 4,
+  "lesson_count_listed_in_curriculum": 16,
+  "notes": "Day 0-11 listed only. Four complete 2026-10-13..16 exports are copied byte-for-byte from accessible Markdown originals.",
+  "files": [
+    {
+      "path": "AGENT_IMPORT_INSTRUCTIONS.md",
+      "sha256": "6378fac5547b1c6b64229d77c88052d26a1a569a610b7cfda04c5bfa62719df8",
+      "bytes": 1780
+    },
+    {
+      "path": "CURRICULUM.md",
+      "sha256": "d888aad16345cf66d2a2b97ef3fb617a1b52b515c0049277e88aebcce769b96c",
+      "bytes": 2241
+    },
+    {
+      "path": "NOTE_TEMPLATE.md",
+      "sha256": "0c7e98796ef8f4f3713620b97c9e34a19fbde4802d159f847bfe4c1d36442e56",
+      "bytes": 706
+    },
+    {
+      "path": "README.md",
+      "sha256": "4772d0ef0c273f1630416113cd487664310bb2daf4d3ef1f4c24a01c2dad2674",
+      "bytes": 3154
+    },
+    {
+      "path": "VLM/Alignment-and-Post-Training/README.md",
+      "sha256": "5469231a15ae35acca0abbfac48facbad8527e155b4259a16591fc373f57715a",
+      "bytes": 302
+    },
+    {
+      "path": "VLM/Grounding/README.md",
+      "sha256": "0a0abbf60e7b11952009cc85a759d8a2e86435ede9cfcc8331d265e834a596b3",
+      "bytes": 291
+    },
+    {
+      "path": "VLM/Inference-and-Decoding/2026-10-13_Exact-Multimodal-Speculative-Decoding.md",
+      "sha256": "34d5466fdb025f2c975cf9a6ea54eeb9d4b58a77d7c8fd417fe6d8af0a76aacf",
+      "bytes": 25553
+    },
+    {
+      "path": "VLM/Inference-and-Decoding/README.md",
+      "sha256": "369429aba70deffb3ba12d4b3a7cfa041f35b8de0c9bbab94fe8cf01157f1003",
+      "bytes": 234
+    },
+    {
+      "path": "VLM/Multimodal-Connectors/README.md",
+      "sha256": "ff7ab1e1793be92ab939b970b047ab6817c9a35198fb5042067909d384a4429c",
+      "bytes": 301
+    },
+    {
+      "path": "VLM/Multimodal-RAG-and-Retrieval/2026-10-15_ColPali-MaxSim-Vision-First-RAG.md",
+      "sha256": "b0abc8b5d9e7a81d9eb8538786511cfb41b5a02479ddc3a6580bc1dbf89d8f2f",
+      "bytes": 25891
+    },
+    {
+      "path": "VLM/Multimodal-RAG-and-Retrieval/2026-10-16_Verifier-Guided-Multi-Hop-Multimodal-RAG.md",
+      "sha256": "b94c1d52073eb2b0094dd2e3dc8832690a8d9c41d17e8274e68e3eb5fd5ce5f0",
+      "bytes": 23229
+    },
+    {
+      "path": "VLM/Multimodal-RAG-and-Retrieval/README.md",
+      "sha256": "d54cc35df3b3a97d47b22cc161da3a45453fcc3d9851b030d5740c11b2075c56",
+      "bytes": 353
+    },
+    {
+      "path": "VLM/Quantization-and-Compression/README.md",
+      "sha256": "89b0aa5d6de8346fbda57c5a791a2e2011977b253ea068492b1df74bc0f2b20f",
+      "bytes": 323
+    },
+    {
+      "path": "VLM/Representation-Learning/README.md",
+      "sha256": "e5b878615a127a1d8acebc8c68a3184d93b38dba4c6145e64c6841ee18f88fde",
+      "bytes": 318
+    },
+    {
+      "path": "VLM/Serving-and-Infrastructure/2026-10-14_SLO-Aware-Multimodal-Serving.md",
+      "sha256": "fb9714af9dc57c7d59c3068de62057f5a58663a007738852b53581d5ba0e2462",
+      "bytes": 20492
+    },
+    {
+      "path": "VLM/Serving-and-Infrastructure/README.md",
+      "sha256": "71eaf483a888cd0e31f3c9bc39439cc0ca7c6c6eb0b46c462b3a42fc33dd49e5",
+      "bytes": 242
+    },
+    {
+      "path": "VLM/VLA-and-Embodied/README.md",
+      "sha256": "8bc0536a2845a54b06e4d8a6275a6b67852d3f5a8fcff0e41068e3859734fc64",
+      "bytes": 310
+    },
+    {
+      "path": "VLM/Video-and-Temporal/README.md",
+      "sha256": "5bc9bc1964949e24e8a418823a56c0ca0650e40ffabd3ae9c1f6533344ed03fb",
+      "bytes": 302
+    }
+  ]
+}
