@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.venv/
+# Reproducible local preview; the publication figure is the SVG.
+assets/deformable-attention/sampling-geometry.png
