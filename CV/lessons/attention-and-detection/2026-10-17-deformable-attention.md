@@ -337,7 +337,7 @@ interface without defining how their coordinates correspond.
 From the repository root:
 
 ```bash
-cd examples/deformable-attention
+cd CV/examples/deformable-attention
 python -m pip install -r requirements.txt
 python checks.py
 python demo.py

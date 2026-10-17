@@ -33,11 +33,22 @@ This import checks provenance, file integrity, repository integration, and local
 navigation. It does not independently revalidate research claims or performance
 numbers in the four source notes and does not execute their embedded examples.
 Executed checks for the October 17 CV example remain documented in
-[its validation record](examples/deformable-attention/VALIDATION.md).
+[its validation record](../../../CV/examples/deformable-attention/VALIDATION.md).
 
 ## Full source lessons
 
-- [2026-10-13 — Exact Multimodal Speculative Decoding](VLM/Inference-and-Decoding/2026-10-13_Exact-Multimodal-Speculative-Decoding.md)
-- [2026-10-14 — SLO-Aware Multimodal Serving](VLM/Serving-and-Infrastructure/2026-10-14_SLO-Aware-Multimodal-Serving.md)
-- [2026-10-15 — ColPali / MaxSim / Vision-First Multimodal RAG](VLM/Multimodal-RAG-and-Retrieval/2026-10-15_ColPali-MaxSim-Vision-First-RAG.md)
-- [2026-10-16 — Verifier-Guided Multi-Hop Multimodal RAG](VLM/Multimodal-RAG-and-Retrieval/2026-10-16_Verifier-Guided-Multi-Hop-Multimodal-RAG.md)
+- [2026-10-13 — Exact Multimodal Speculative Decoding](../../Inference-and-Decoding/2026-10-13_Exact-Multimodal-Speculative-Decoding.md)
+- [2026-10-14 — SLO-Aware Multimodal Serving](../../Serving-and-Infrastructure/2026-10-14_SLO-Aware-Multimodal-Serving.md)
+- [2026-10-15 — ColPali / MaxSim / Vision-First Multimodal RAG](../../Multimodal-RAG-and-Retrieval/2026-10-15_ColPali-MaxSim-Vision-First-RAG.md)
+- [2026-10-16 — Verifier-Guided Multi-Hop Multimodal RAG](../../Multimodal-RAG-and-Retrieval/2026-10-16_Verifier-Guided-Multi-Hop-Multimodal-RAG.md)
+
+## Repository reorganization — 2026-10-17
+
+The current repository has separate `CV/` and `VLM/` sections. CV lessons,
+examples and assets are under `CV/`; VLM curriculum and template are under
+`VLM/`. Import records are retained in this archive directory. The manifest
+and original import instructions describe the source ZIP's historical layout.
+Navigation READMEs and this report were updated during reorganization. The
+four imported VLM lesson texts, example code and illustration are unchanged.
+The CV lesson's launch command was adjusted to its new directory; its technical
+explanation is unchanged.
