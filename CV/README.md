@@ -13,6 +13,13 @@
 - [Correlation reference and demo](examples/raft-optical-flow/)
 - [Validation results](examples/raft-optical-flow/VALIDATION.md)
 
+## Geometry and Calibration
+
+- [2026-10-19 — Zhang Camera Calibration](lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
+- [Category index](lessons/geometry-and-calibration/README.md)
+- [NumPy/SciPy implementation and integrated application](examples/zhang-camera-calibration/)
+- [Validation results](examples/zhang-camera-calibration/VALIDATION.md)
+
 ## Navigation
 
 - [VLM](../VLM/README.md)

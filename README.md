@@ -3,8 +3,9 @@
 ## [CV — Computer Vision](CV/README.md)
 
 - [2026-10-17 — Multi-scale Deformable Attention](CV/lessons/attention-and-detection/2026-10-17-deformable-attention.md)
-
 - [2026-10-18 — RAFT Optical Flow](CV/lessons/video-and-motion/2026-10-18-raft-optical-flow.md)
+
+- [2026-10-19 — Zhang Camera Calibration](CV/lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 
