@@ -16,9 +16,12 @@
 ## Geometry and Calibration
 
 - [2026-10-19 — Zhang Camera Calibration](lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
+- [2026-10-20 — LO-RANSAC Robust Homography Estimation](lessons/geometry-and-calibration/2026-10-20-lo-ransac-homography.md)
 - [Category index](lessons/geometry-and-calibration/README.md)
 - [NumPy/SciPy implementation and integrated application](examples/zhang-camera-calibration/)
 - [Validation results](examples/zhang-camera-calibration/VALIDATION.md)
+- [Robust homography implementation and registration demo](examples/lo-ransac-homography/)
+- [Robust homography validation](examples/lo-ransac-homography/VALIDATION.md)
 
 ## Navigation
 
