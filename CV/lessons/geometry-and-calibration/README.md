@@ -12,4 +12,11 @@
 - [Executed validation and paired ablations](../../examples/lo-ransac-homography/VALIDATION.md)
 - [Original spatial illustration](../../assets/lo-ransac-homography/robust-planar-registration.svg)
 
+## Calibrated Two-View Relative Pose
+
+- [2026-10-21 — Normalized Eight-Point Essential Matrix: From Calibrated Matches to Relative Pose](2026-10-21-eight-point-essential-matrix.md)
+- [NumPy implementation, RANSAC demo, and robot-camera application](../../examples/eight-point-essential-matrix/)
+- [Executed numerical checks, ablations, and low-parallax study](../../examples/eight-point-essential-matrix/VALIDATION.md)
+- [Original relative-pose and observability illustration](../../assets/eight-point-essential-matrix/relative-pose-and-parallax.svg)
+
 [CV index](../../README.md) · [Repository home](../../../README.md)

@@ -6,6 +6,7 @@
 - [2026-10-18 — RAFT Optical Flow](CV/lessons/video-and-motion/2026-10-18-raft-optical-flow.md)
 - [2026-10-19 — Zhang Camera Calibration](CV/lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
 - [2026-10-20 — LO-RANSAC Robust Homography Estimation](CV/lessons/geometry-and-calibration/2026-10-20-lo-ransac-homography.md)
+- [2026-10-21 — Normalized Eight-Point Essential Matrix](CV/lessons/geometry-and-calibration/2026-10-21-eight-point-essential-matrix.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 
