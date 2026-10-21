@@ -19,4 +19,11 @@
 - [Executed numerical checks, ablations, and low-parallax study](../../examples/eight-point-essential-matrix/VALIDATION.md)
 - [Original relative-pose and observability illustration](../../assets/eight-point-essential-matrix/relative-pose-and-parallax.svg)
 
+## Metric 3-D–2-D Pose
+
+- [2026-10-22 — EPnP: Efficient Metric Pose from 3-D–2-D Correspondences](2026-10-22-epnp-pose.md)
+- [NumPy/SciPy implementation, robust demo, and fixture application](../../examples/epnp-pose/)
+- [Executed numerical checks, ablations, thickness study, and failure case](../../examples/epnp-pose/VALIDATION.md)
+- [Original control-point and observability illustration](../../assets/epnp-pose/control-points-and-observability.svg)
+
 [CV index](../../README.md) · [Repository home](../../../README.md)

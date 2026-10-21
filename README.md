@@ -7,6 +7,7 @@
 - [2026-10-19 — Zhang Camera Calibration](CV/lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
 - [2026-10-20 — LO-RANSAC Robust Homography Estimation](CV/lessons/geometry-and-calibration/2026-10-20-lo-ransac-homography.md)
 - [2026-10-21 — Normalized Eight-Point Essential Matrix](CV/lessons/geometry-and-calibration/2026-10-21-eight-point-essential-matrix.md)
+- [2026-10-22 — EPnP Metric Pose](CV/lessons/geometry-and-calibration/2026-10-22-epnp-pose.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 

@@ -18,6 +18,7 @@
 - [2026-10-19 — Zhang Camera Calibration](lessons/geometry-and-calibration/2026-10-19-zhang-camera-calibration.md)
 - [2026-10-20 — LO-RANSAC Robust Homography Estimation](lessons/geometry-and-calibration/2026-10-20-lo-ransac-homography.md)
 - [2026-10-21 — Normalized Eight-Point Essential Matrix](lessons/geometry-and-calibration/2026-10-21-eight-point-essential-matrix.md)
+- [2026-10-22 — EPnP Metric Pose](lessons/geometry-and-calibration/2026-10-22-epnp-pose.md)
 - [Category index](lessons/geometry-and-calibration/README.md)
 - [NumPy/SciPy implementation and integrated application](examples/zhang-camera-calibration/)
 - [Validation results](examples/zhang-camera-calibration/VALIDATION.md)
@@ -25,6 +26,8 @@
 - [Robust homography validation](examples/lo-ransac-homography/VALIDATION.md)
 - [Essential-matrix implementation and relative-pose demo](examples/eight-point-essential-matrix/)
 - [Essential-matrix validation](examples/eight-point-essential-matrix/VALIDATION.md)
+- [EPnP implementation, robust demo, and fixture application](examples/epnp-pose/)
+- [EPnP executed validation](examples/epnp-pose/VALIDATION.md)
 
 ## Navigation
 
