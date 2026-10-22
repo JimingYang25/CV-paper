@@ -26,4 +26,11 @@
 - [Executed numerical checks, ablations, thickness study, and failure case](../../examples/epnp-pose/VALIDATION.md)
 - [Original control-point and observability illustration](../../assets/epnp-pose/control-points-and-observability.svg)
 
+## Joint Multi-View Refinement
+
+- [2026-10-23 — Schur-Complement Bundle Adjustment: Joint Camera and Structure Refinement](2026-10-23-schur-bundle-adjustment.md)
+- [NumPy implementation, ablations, and wrist-camera application](../../examples/schur-bundle-adjustment/)
+- [Executed numerical checks, paired ablations, gauge study, and application](../../examples/schur-bundle-adjustment/VALIDATION.md)
+- [Original factor-graph, sparsity, and robust-refinement illustration](../../assets/schur-bundle-adjustment/schur-factorization.svg)
+
 [CV index](../../README.md) · [Repository home](../../../README.md)
