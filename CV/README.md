@@ -20,6 +20,7 @@
 - [2026-10-21 — Normalized Eight-Point Essential Matrix](lessons/geometry-and-calibration/2026-10-21-eight-point-essential-matrix.md)
 - [2026-10-22 — EPnP Metric Pose](lessons/geometry-and-calibration/2026-10-22-epnp-pose.md)
 - [2026-10-23 — Schur-Complement Bundle Adjustment](lessons/geometry-and-calibration/2026-10-23-schur-bundle-adjustment.md)
+- [2026-10-24 — Census + Semi-Global Matching](lessons/geometry-and-calibration/2026-10-24-semi-global-matching.md)
 - [Category index](lessons/geometry-and-calibration/README.md)
 - [NumPy/SciPy implementation and integrated application](examples/zhang-camera-calibration/)
 - [Validation results](examples/zhang-camera-calibration/VALIDATION.md)
@@ -31,6 +32,8 @@
 - [EPnP executed validation](examples/epnp-pose/VALIDATION.md)
 - [Schur bundle-adjustment implementation, ablations, and wrist-camera application](examples/schur-bundle-adjustment/)
 - [Schur bundle-adjustment executed validation](examples/schur-bundle-adjustment/VALIDATION.md)
+- [Census + SGM implementation, ablations, and robot-clearance application](examples/semi-global-matching/)
+- [Census + SGM executed validation](examples/semi-global-matching/VALIDATION.md)
 
 ## Navigation
 

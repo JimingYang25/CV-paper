@@ -9,6 +9,7 @@
 - [2026-10-21 — Normalized Eight-Point Essential Matrix](CV/lessons/geometry-and-calibration/2026-10-21-eight-point-essential-matrix.md)
 - [2026-10-22 — EPnP Metric Pose](CV/lessons/geometry-and-calibration/2026-10-22-epnp-pose.md)
 - [2026-10-23 — Schur-Complement Bundle Adjustment](CV/lessons/geometry-and-calibration/2026-10-23-schur-bundle-adjustment.md)
+- [2026-10-24 — Census + Semi-Global Matching](CV/lessons/geometry-and-calibration/2026-10-24-semi-global-matching.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 

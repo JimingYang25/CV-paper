@@ -33,4 +33,11 @@
 - [Executed numerical checks, paired ablations, gauge study, and application](../../examples/schur-bundle-adjustment/VALIDATION.md)
 - [Original factor-graph, sparsity, and robust-refinement illustration](../../assets/schur-bundle-adjustment/schur-factorization.svg)
 
+## Dense Rectified Stereo
+
+- [2026-10-24 — Census + Semi-Global Matching: Dense Stereo without Hiding the Geometry](2026-10-24-semi-global-matching.md)
+- [NumPy implementation, ablations, and robot-clearance application](../../examples/semi-global-matching/)
+- [Executed numerical checks, paired ablations, and application](../../examples/semi-global-matching/VALIDATION.md)
+- [Original rectified-stereo and aggregation illustration](../../assets/semi-global-matching/census-sgm-stereo.svg)
+
 [CV index](../../README.md) · [Repository home](../../../README.md)
