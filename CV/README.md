@@ -35,6 +35,13 @@
 - [Census + SGM implementation, ablations, and robot-clearance application](examples/semi-global-matching/)
 - [Census + SGM executed validation](examples/semi-global-matching/VALIDATION.md)
 
+## 3-D Reconstruction and Mapping
+
+- [2026-10-25 — Projective TSDF Fusion](lessons/3d-reconstruction-and-mapping/2026-10-25-projective-tsdf-fusion.md)
+- [Category index](lessons/3d-reconstruction-and-mapping/README.md)
+- [NumPy implementation, ablations, and robot sweep-volume application](examples/tsdf-fusion/)
+- [Executed validation results](examples/tsdf-fusion/VALIDATION.md)
+
 ## Navigation
 
 - [VLM](../VLM/README.md)
