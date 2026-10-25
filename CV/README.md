@@ -38,9 +38,12 @@
 ## 3-D Reconstruction and Mapping
 
 - [2026-10-25 — Projective TSDF Fusion](lessons/3d-reconstruction-and-mapping/2026-10-25-projective-tsdf-fusion.md)
+- [2026-10-26 — Robust Point-to-Plane ICP](lessons/3d-reconstruction-and-mapping/2026-10-26-robust-point-to-plane-icp.md)
 - [Category index](lessons/3d-reconstruction-and-mapping/README.md)
 - [NumPy implementation, ablations, and robot sweep-volume application](examples/tsdf-fusion/)
 - [Executed validation results](examples/tsdf-fusion/VALIDATION.md)
+- [Robust ICP implementation, ablations, and depth-to-model tracking gate](examples/robust-point-to-plane-icp/)
+- [Robust ICP executed validation](examples/robust-point-to-plane-icp/VALIDATION.md)
 
 ## Navigation
 

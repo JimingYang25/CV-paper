@@ -11,6 +11,7 @@
 - [2026-10-23 — Schur-Complement Bundle Adjustment](CV/lessons/geometry-and-calibration/2026-10-23-schur-bundle-adjustment.md)
 - [2026-10-24 — Census + Semi-Global Matching](CV/lessons/geometry-and-calibration/2026-10-24-semi-global-matching.md)
 - [2026-10-25 — Projective TSDF Fusion](CV/lessons/3d-reconstruction-and-mapping/2026-10-25-projective-tsdf-fusion.md)
+- [2026-10-26 — Robust Point-to-Plane ICP](CV/lessons/3d-reconstruction-and-mapping/2026-10-26-robust-point-to-plane-icp.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 
