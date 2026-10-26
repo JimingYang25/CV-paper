@@ -45,6 +45,13 @@
 - [Robust ICP implementation, ablations, and depth-to-model tracking gate](examples/robust-point-to-plane-icp/)
 - [Robust ICP executed validation](examples/robust-point-to-plane-icp/VALIDATION.md)
 
+## Representation Learning
+
+- [2026-10-27 — DINOv3 Gram Anchoring](lessons/representation-learning/2026-10-27-dinov3-gram-anchoring.md)
+- [Category index](lessons/representation-learning/README.md)
+- [NumPy loss reference, ablations, and visual-tactile checkpoint gate](examples/dinov3-gram-anchoring/)
+- [Executed validation results](examples/dinov3-gram-anchoring/VALIDATION.md)
+
 ## Navigation
 
 - [VLM](../VLM/README.md)
