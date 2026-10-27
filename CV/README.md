@@ -3,8 +3,12 @@
 ## Attention and Detection
 
 - [2026-10-17 — Multi-scale Deformable Attention](lessons/attention-and-detection/2026-10-17-deformable-attention.md)
+- [2026-10-28 — Task-Aligned Anchor-Free Detection](lessons/attention-and-detection/2026-10-28-task-aligned-anchor-free-detection.md)
+- [Category index](lessons/attention-and-detection/README.md)
 - [PyTorch implementation and demo](examples/deformable-attention/)
 - [Validation results](examples/deformable-attention/VALIDATION.md)
+- [NumPy detector-math reference, ablations, and tactile-marker application](examples/task-aligned-anchor-free-detection/)
+- [Task-aligned detector executed validation](examples/task-aligned-anchor-free-detection/VALIDATION.md)
 
 ## Video and Motion
 
