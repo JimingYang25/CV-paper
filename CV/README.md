@@ -56,6 +56,13 @@
 - [NumPy loss reference, ablations, and visual-tactile checkpoint gate](examples/dinov3-gram-anchoring/)
 - [Executed validation results](examples/dinov3-gram-anchoring/VALIDATION.md)
 
+## Segmentation
+
+- [2026-10-29 — SAM 2 Streaming Memory](lessons/segmentation/2026-10-29-sam2-streaming-memory.md)
+- [Category index](lessons/segmentation/README.md)
+- [NumPy streaming-memory mechanism study and tactile application](examples/sam2-streaming-memory/)
+- [Executed validation results](examples/sam2-streaming-memory/VALIDATION.md)
+
 ## Navigation
 
 - [VLM](../VLM/README.md)

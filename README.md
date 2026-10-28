@@ -14,6 +14,7 @@
 - [2026-10-26 — Robust Point-to-Plane ICP](CV/lessons/3d-reconstruction-and-mapping/2026-10-26-robust-point-to-plane-icp.md)
 - [2026-10-27 — DINOv3 Gram Anchoring](CV/lessons/representation-learning/2026-10-27-dinov3-gram-anchoring.md)
 - [2026-10-28 — Task-Aligned Anchor-Free Detection](CV/lessons/attention-and-detection/2026-10-28-task-aligned-anchor-free-detection.md)
+- [2026-10-29 — SAM 2 Streaming Memory](CV/lessons/segmentation/2026-10-29-sam2-streaming-memory.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 
