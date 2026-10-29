@@ -15,6 +15,7 @@
 - [2026-10-27 — DINOv3 Gram Anchoring](CV/lessons/representation-learning/2026-10-27-dinov3-gram-anchoring.md)
 - [2026-10-28 — Task-Aligned Anchor-Free Detection](CV/lessons/attention-and-detection/2026-10-28-task-aligned-anchor-free-detection.md)
 - [2026-10-29 — SAM 2 Streaming Memory](CV/lessons/segmentation/2026-10-29-sam2-streaming-memory.md)
+- [2026-10-30 — VideoMAE and VideoMAE V2 Dual Masking](CV/lessons/video-and-motion/2026-10-30-videomae-dual-masking.md)
 
 ## [VLM — Vision-Language Models](VLM/README.md)
 
