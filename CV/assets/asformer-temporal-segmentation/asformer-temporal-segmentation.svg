@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">ASFormer hierarchical encoder and iterative decoder</title>
+  <desc id="desc">A tensor-flow diagram from frame features through local-to-global encoder blocks, initial class probabilities, and three cross-attention decoder refinements, with a detail panel for an encoder block and an attention-window hierarchy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071827"/><stop offset="1" stop-color="#102f46"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.28"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#7dd3fc"/></marker>
+    <style>
+      .title{font:700 30px ui-sans-serif,system-ui;fill:#f8fafc}.sub{font:500 15px ui-sans-serif,system-ui;fill:#cbd5e1}
+      .h{font:700 17px ui-sans-serif,system-ui;fill:#f8fafc}.t{font:500 14px ui-sans-serif,system-ui;fill:#dbeafe}.m{font:600 13px ui-monospace,monospace;fill:#bae6fd}
+      .box{fill:#0f2940;stroke:#38bdf8;stroke-width:2;rx:14;filter:url(#shadow)}.warm{fill:#392b18;stroke:#f59e0b;stroke-width:2;rx:14;filter:url(#shadow)}
+      .green{fill:#12372c;stroke:#34d399;stroke-width:2;rx:14;filter:url(#shadow)}.line{fill:none;stroke:#7dd3fc;stroke-width:2.4;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#64748b;stroke-width:1.5;stroke-dasharray:6 6}.tiny{font:500 12px ui-sans-serif,system-ui;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <text x="52" y="52" class="title">ASFormer: locality first, refinement second</text>
+  <text x="52" y="80" class="sub">Time-major notation below; the released PyTorch code stores tensors as [B, channel, time].</text>
+
+  <rect x="52" y="120" width="180" height="92" class="box"/>
+  <text x="142" y="153" text-anchor="middle" class="h">Video features</text><text x="142" y="179" text-anchor="middle" class="m">X ∈ R^(T×D)</text><text x="142" y="199" text-anchor="middle" class="tiny">I3D / VideoMAE / tactile fusion</text>
+  <path d="M232 166 H282" class="line"/>
+  <rect x="282" y="106" width="232" height="120" class="box"/>
+  <text x="398" y="139" text-anchor="middle" class="h">Encoder: J blocks</text><text x="398" y="165" text-anchor="middle" class="m">dilation, window = 2^j</text><text x="398" y="188" text-anchor="middle" class="t">dilated Conv → local attention</text><text x="398" y="210" text-anchor="middle" class="tiny">strong temporal locality bias</text>
+  <path d="M514 166 H565" class="line"/>
+  <rect x="565" y="120" width="175" height="92" class="warm"/>
+  <text x="652" y="153" text-anchor="middle" class="h">Initial logits</text><text x="652" y="178" text-anchor="middle" class="m">Z⁽⁰⁾ ∈ R^(T×C)</text><text x="652" y="199" text-anchor="middle" class="tiny">softmax → probabilities</text>
+  <path d="M740 166 H790" class="line"/>
+  <rect x="790" y="106" width="196" height="120" class="green"/>
+  <text x="888" y="139" text-anchor="middle" class="h">Decoder cascade</text><text x="888" y="165" text-anchor="middle" class="m">3 × [T,C] → [T,C]</text><text x="888" y="188" text-anchor="middle" class="t">cross-attention + Conv</text><text x="888" y="210" text-anchor="middle" class="tiny">αₛ = exp(−3s) in code</text>
+  <path d="M986 166 H1036" class="line"/>
+  <rect x="1036" y="120" width="118" height="92" class="warm"/>
+  <text x="1095" y="153" text-anchor="middle" class="h">Labels</text><text x="1095" y="178" text-anchor="middle" class="m">ŷ ∈ {1…C}^T</text><text x="1095" y="199" text-anchor="middle" class="tiny">frame + segment metrics</text>
+  <path d="M492 226 C610 285 748 285 829 226" class="dash"/>
+  <text x="656" y="274" text-anchor="middle" class="tiny">encoder features guide every decoder block</text>
+
+  <text x="52" y="326" class="h">One encoder block j</text>
+  <rect x="52" y="346" width="498" height="330" class="box"/>
+  <rect x="82" y="385" width="150" height="60" class="warm"/><text x="157" y="411" text-anchor="middle" class="h">Dilated Conv1D</text><text x="157" y="432" text-anchor="middle" class="m">k=3, d=2^j</text>
+  <path d="M232 415 H278" class="line"/>
+  <rect x="278" y="385" width="236" height="60" class="box"/><text x="396" y="411" text-anchor="middle" class="h">InstanceNorm → Q,K,V</text><text x="396" y="432" text-anchor="middle" class="m">[T,H] → [T,H/r]</text>
+  <path d="M396 445 V480" class="line"/>
+  <rect x="183" y="480" width="330" height="79" class="green"/><text x="348" y="509" text-anchor="middle" class="h">Masked scaled dot-product attention</text><text x="348" y="533" text-anchor="middle" class="m">A = softmax((QKᵀ/√dₖ)+M)</text><text x="348" y="551" text-anchor="middle" class="tiny">only wⱼ local keys are legal</text>
+  <path d="M348 559 V594" class="line"/>
+  <rect x="183" y="594" width="330" height="54" class="warm"/><text x="348" y="618" text-anchor="middle" class="h">1×1 projection + dropout + residual</text><text x="348" y="638" text-anchor="middle" class="m">Hʲ = Hʲ⁻¹ + ΔHʲ</text>
+  <path d="M82 415 C60 415 62 621 183 621" class="dash"/>
+  <text x="73" y="516" transform="rotate(-90 73 516)" class="tiny">residual path</text>
+
+  <text x="600" y="326" class="h">Pre-defined hierarchical attention windows</text>
+  <rect x="600" y="346" width="554" height="330" class="box"/>
+  <text x="630" y="383" class="t">anchor query t</text><circle cx="738" cy="378" r="6" fill="#f59e0b"/>
+  <g transform="translate(630 410)">
+    <text x="0" y="16" class="m">j=0, w=1</text><rect x="122" y="0" width="12" height="24" fill="#f59e0b"/><rect x="134" y="0" width="300" height="24" fill="#163a53"/>
+    <text x="0" y="61" class="m">j=1, w=2</text><rect x="122" y="45" width="24" height="24" fill="#38bdf8"/><rect x="146" y="45" width="288" height="24" fill="#163a53"/>
+    <text x="0" y="106" class="m">j=2, w=4</text><rect x="122" y="90" width="48" height="24" fill="#38bdf8"/><rect x="170" y="90" width="264" height="24" fill="#163a53"/>
+    <text x="0" y="151" class="m">j=3, w=8</text><rect x="122" y="135" width="96" height="24" fill="#38bdf8"/><rect x="218" y="135" width="216" height="24" fill="#163a53"/>
+    <text x="0" y="196" class="m">j=4, w=16</text><rect x="122" y="180" width="192" height="24" fill="#38bdf8"/><rect x="314" y="180" width="120" height="24" fill="#163a53"/>
+    <text x="0" y="241" class="m">j=5, w=32</text><rect x="122" y="225" width="312" height="24" fill="#38bdf8"/>
+  </g>
+  <text x="630" y="650" class="tiny">The receptive field expands with depth; pair cost scales with T·Σⱼwⱼ, not J·T².</text>
+  <text x="52" y="720" class="tiny">Original explanatory figure for CV-paper • architecture claims traced to Yi, Wen &amp; Jiang (BMVC 2021); exact paper/code discrepancy is documented in the lesson.</text>
+</svg>
